@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 2px;
+       
+        color: white;
+        
+      }
+      .upper {
+        
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .a1 {
+        font-size: 40px;
+      }
+      .a2 {
+        font-size: 30px;
+      }
+      
+
+      .input {
+        border: solid;
+        margin-left: 10px;
+        width: 90vw;
+        display: inline-block;
+        margin-bottom: 5px;
+        padding: 5px;
+        padding-left: 10px;
+        background-color: rgb(51,47,47);
+        border: none;
+        outline: none;
+      }
+      .input:focus{
+        border-bottom: solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="border: solid;background-color: rgb(7, 94, 84);padding: 15px;height: 95px;">
+      <div class="upper">
+        <div>
+          <h1 style="display: inline">Chats</h1>
+        </div>
+        <div>
+          <span class="a"><i class="fas fa-edit"></i></span>
+          <span class="a"><i class="fa fa-align-justify"></i></span>
+        </div>
+      </div>
+      <div class="upper1">
+        <input
+          class="input"
+          type="text"
+          name=""
+          id=""
+          placeholder="Search or start a new chat"
+        />
+      </div>
+    </div>
+  </body>
+</html>
